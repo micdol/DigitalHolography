@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{d5198d24-0718-4e14-adb8-be904f4a5165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{7f3f449f-442e-4cd9-a92e-cf74219a317a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\CWO">
+      <UniqueIdentifier>{ede1c876-4844-4d1f-8e88-ab87a23c4ff9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\CWO">
+      <UniqueIdentifier>{44846e21-ac7b-48a0-a5f6-b1408f12051e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Coding\cwo\src\cwo.cpp">
+      <Filter>Sources\CWO</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="CpuHolo.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="GpuHolo.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\Coding\cwo\src\cwo.h">
+      <Filter>Headers\CWO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Coding\cwo\src\cwo_lib.h">
+      <Filter>Headers\CWO</Filter>
+    </ClInclude>
+    <ClInclude Include="main.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GpuHoloKernels.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GpuHolo.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CpuHolo.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="GpuHoloKernels.cu">
+      <Filter>Sources</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>
